@@ -1,1 +1,7 @@
+https://spring.io/guides/gs/consuming-web-service/
 https://www.devglan.com/spring-boot/spring-boot-soap-client
+
+https://spring.io/guides/gs/producing-web-service/
+
+dodac mocka uslugi
+dodac spring circut breaker
