@@ -5,3 +5,6 @@ https://spring.io/guides/gs/producing-web-service/
 
 dodac mocka uslugi
 dodac spring circut breaker
+
+!!!
+https://stackoverflow.com/questions/15203919/advantages-of-webservicegatewaysupport-vs-webservicetemplate
