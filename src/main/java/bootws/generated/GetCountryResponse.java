@@ -68,4 +68,9 @@ public class GetCountryResponse {
         this.country = value;
     }
 
+	@Override
+	public String toString() {
+		return "GetCountryResponse [country=" + country.toString() + "]";
+	}
+
 }

@@ -13,7 +13,7 @@ import bootws.generated.GetCountryResponse;
 @Service
 public class CountyService  {
 
-	@Value ("${uri}")
+	@Value ("${ws.uri}")
 	private String uri;
 	
 	@Autowired
@@ -23,7 +23,6 @@ public class CountyService  {
 	public GetCountryResponse getCountry(String country) {
 		GetCountryRequest request = new GetCountryRequest();
 		request.setName(country);
-		// na chama ustawić marshaller
 		
 		GetCountryResponse respone = (GetCountryResponse) webServiceTemplate.marshalSendAndReceive(uri, request);
 		return respone;

@@ -14,8 +14,8 @@ public class CountryContoller {
 	@Autowired
 	private CountyService countyService;
 	
-	@GetMapping("/country")
-	public String getCountry(@PathVariable String country) {
-		return countyService.getCountry(country).toString();
+	@GetMapping("/country/{countryName}")
+	public String getCountry(@PathVariable String countryName) {
+		return countyService.getCountry(countryName).toString();
 	}
 }

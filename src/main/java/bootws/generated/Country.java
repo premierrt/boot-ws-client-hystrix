@@ -143,4 +143,12 @@ public class Country {
         this.currency = value;
     }
 
+	@Override
+	public String toString() {
+		return "Country [name=" + name + ", population=" + population + ", capital=" + capital + ", currency="
+				+ currency + "]";
+	}
+
+    
+    
 }
