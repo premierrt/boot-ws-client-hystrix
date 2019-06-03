@@ -8,3 +8,5 @@ dodac spring circut breaker
 
 !!!
 https://stackoverflow.com/questions/15203919/advantages-of-webservicegatewaysupport-vs-webservicetemplate
+
+https://docs.spring.io/spring-javaconfig/docs/1.0.0.M4/reference/html/ch02s02.html
